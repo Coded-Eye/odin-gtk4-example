@@ -1,0 +1,12 @@
+using Gtk 4.0;
+
+ApplicationWindow App {
+  title: _("Window");
+  default-width: 800;
+  default-height: 600;
+
+  Button {
+    label: _("hello, world");
+    clicked => $hello_world();
+  }
+}
