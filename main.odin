@@ -1,10 +1,10 @@
 package calc
 
 import "core:fmt"
-import "gtk4/glib"
-import "gtk4/glib/gio"
-import "gtk4/glib/gobject"
-import "gtk4/gtk"
+import glib "odin-gtk/glib"
+import gio "odin-gtk/glib/gio"
+import gobject "odin-gtk/glib/gobject"
+import gtk "odin-gtk/gtk"
 
 hello_world :: proc() {
 	fmt.println("Hello, world!")
